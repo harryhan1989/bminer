@@ -15,7 +15,7 @@ docker run -d \
 --name zcl-bminer \
 --restart always \
 --runtime nvidia \
-djenriquez/bminer \
+harryhan1989/bminer:latest \
 -api 0.0.0.0:3500 \
 -max-temperature 80 \
 -uri ethproxy://jklhan.001@ethash.poolbinance.com:8888
