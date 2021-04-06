@@ -18,7 +18,7 @@ docker run -d \
 djenriquez/bminer \
 -api 0.0.0.0:3500 \
 -max-temperature 80 \
--uri stratum://t1eqczLuBa3XoWkHi9tsVu9k4sQnbnNmA1q.rig1:x@us.miningspeed.com:3052
+-uri ethproxy://jklhan.001@ethash.poolbinance.com:8888
 ```
 ## Donations
 - BTC - 33DyXVuy3R5jfLZRRpEQcXXAJ1Xz5rkGxE
