@@ -12,7 +12,7 @@ Dockerizes the bminer binary. Run the docker container as if it were the actual 
 ```
 docker run -d \
 --net host \
---name zcl-bminer \
+--name bminer \
 --restart always \
 --runtime nvidia \
 harryhan1989/bminer:latest \
